@@ -15,7 +15,7 @@
   width: 200px;
   display: block;
   margin: 0 auto 20px;
-  background-color: #fff;
+  background-color: #00093d;
   padding: 10px 32px;
   border: 1px solid #e0e0e0;
   font-size: 26px;
@@ -25,7 +25,7 @@
   font-family: 'Caveat', cursive;
   text-align: center;
   text-decoration: none;
-  color: #1e1e1e
+  color: #ffffff
 }
 .new-note-btn:hover {
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
@@ -41,7 +41,7 @@
   margin: 0 auto;
 }
 .note {
-  background-color: #f0c806;
+  background-color: #87867e;
   border-radius: 8px;
   width: 280px;
   margin: 0 10px 20px;

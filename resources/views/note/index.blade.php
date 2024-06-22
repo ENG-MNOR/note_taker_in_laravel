@@ -13,7 +13,9 @@
                     <div class="note-buttons">
                         <a href="{{ route('note.show', $note) }}" class="note-edit-button">View</a>
                         <a href="{{ route('note.edit', $note) }}" class="note-edit-button">Edit</a>
-                        <form action="{{ route('note.destroy', $note) }}" method="delete">
+                        <form action="{{ route('note.destroy', $note) }}" method="POST">
+                            @csrf
+                            @method('delete')
                             <button class="note-delete-button">Delete</button>
                         </form>
                     </div>

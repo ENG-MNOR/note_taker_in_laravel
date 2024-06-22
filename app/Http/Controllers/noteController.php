@@ -92,6 +92,7 @@ class noteController extends Controller
      */
     public function destroy(note $note)
     {
-        return 'destroy';
+        $note->delete();
+        return to_route('note.index', )->with('message', 'note successfully deleted');
     }
 }

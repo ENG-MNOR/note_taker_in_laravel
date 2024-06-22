@@ -1,6 +1,6 @@
-<x-layout>
+<x-app-layout>
     <div class="note-container single-note">
-        <h1>Create new note</h1>
+        <h1 class="text-3xl py-4">Create new note</h1>
         <form action="{{ route('note.store') }}" method="POST" class="note">
             @csrf
             <textarea name="note" rows="10" class="note-body" placeholder="Enter your note here"></textarea>
@@ -10,4 +10,4 @@
             </div>
         </form>
     </div>
-</x-layout>
+</x-app-layout>
